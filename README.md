@@ -27,13 +27,17 @@ Install by copying ufirestore.py to the /lib/ folder on your microcontroller.
 
 See WoolDoughnut310's readme [here](https://github.com/WoolDoughnut310/micropython-firebase-firestore/blob/master/README.md) for example usage.
 
-NB: This fork removes callbacks and background execution so omit _bg_ and _cb_ parameters when calling functions.
+Note: This fork removes callbacks and background execution so omit _bg_ and _cb_ parameters when calling functions.
 
 ## Requirements
 
 - Adafruit CircuitPython v9.x
 - [adafruit_requests](https://github.com/adafruit/Adafruit_CircuitPython_Requests) which itself requires [adafruit-circuitpython-connectionmanager](https://github.com/adafruit/Adafruit_CircuitPython_ConnectionManager)
     - Click the above links, go to Releases, download the latest 9.x mpy versions and install by unzipping and copying the contents of the /lib/ folders to the /lib/ folder on your microcontroller.
+
+## Example Code
+
+See [example.py](https://github.com/kavinaidoo/circuitpython-firebase/blob/main/example.py).
 
 ## Notes
 
