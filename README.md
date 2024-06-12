@@ -11,7 +11,7 @@ Available functions:
 - sign_out
 - sign_up
 ```
-Install by copying firebase_auth.py to the /lib/ folder on your microcontroller.
+Install by copying firebase_auth.mpy to the /lib/ folder on your microcontroller.
 
 See WoolDoughnut310's readme [here](https://github.com/WoolDoughnut310/micropython-firebase-auth/blob/master/README.md) for example usage.
 
@@ -23,7 +23,7 @@ Available functions*:
 - create
 - get
 ```
-Install by copying ufirestore.py to the /lib/ folder on your microcontroller.
+Install by copying ufirestore.mpy to the /lib/ folder on your microcontroller.
 
 See WoolDoughnut310's readme [here](https://github.com/WoolDoughnut310/micropython-firebase-firestore/blob/master/README.md) for example usage.
 
@@ -43,7 +43,10 @@ See [example.py](https://github.com/kavinaidoo/circuitpython-firebase/blob/main/
 
 *[micropython-firebase-firestore](https://github.com/WoolDoughnut310/micropython-firebase-firestore) has more functions that you may want to use. You can add these functions by porting in and modifying the relevant code from that repo.
 
-Code was developed/tested using the following module/CircuitPython versions:
+Non-compiled versions are available: firebase_auth.py and ufirestore.py
+
+Code was developed/tested/compiled using the following:
 - adafruit-circuitpython-requests-9.x-mpy-3.2.3
 - adafruit-circuitpython-connectionmanager-9.x-mpy-1.0.1
-- Adafruit CircuitPython 9.0.3 on Raspberry Pi Pico W
+- Adafruit CircuitPython 9.0.5 on Raspberry Pi Pico W
+- mpy-cross-macos-11-9.0.5-universal
